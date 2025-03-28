@@ -1,0 +1,158 @@
+@prefix : <http://dig.isi.edu/> .
+
+:Requirement_to_Function_SA a :Query ;
+   :DESIGN_VARIABLE_ROLE :Spacecraft ;
+   :DEPENDANT_VARIABLE_ROLE :Function ;
+   :REQUIREMENT_ROLE :Requirement ;
+   :ACTIVE_RELATIONSHIP_ROLE :RELATED_FUNCTION ;
+ .
+
+:Function_to_Component_SA a :Query ;
+   :DESIGN_VARIABLE_ROLE :Component ;
+   :DEPENDANT_VARIABLE_ROLE :Component ;
+   :REQUIREMENT_ROLE :Requirement ;
+   :ACTIVE_RELATIONSHIP_ROLE 'assigned to components' ;
+ .
+
+ :Function_to_Component_SA a :Query ;
+   :DESIGN_VARIABLE_ROLE 'Subsystem','Unit' ;
+   :DEPENDANT_VARIABLE_ROLE :Mode ;
+   :REQUIREMENT_ROLE :Requirement ;
+   :ACTIVE_RELATIONSHIP_ROLE 'grouped_to_modes' ;
+ .
+
+:Internal_Interfaces_Analysis a :Query ;
+   :DESIGN_VARIABLE_ROLE :Component ;
+   :DEPENDANT_VARIABLE_ROLE :Component ;
+   :REQUIREMENT_ROLE :Requirement ;
+   :ACTIVE_RELATIONSHIP_ROLE 'interfaces' ;
+   :SUGGESTED_DEPENDANT_VARIABLES 'SOMETHING' ;
+ .
+
+:Interface a :Role ;
+    :LABEL "interfaces" .
+
+:Dependency a :Role ;
+    :LABEL "dependencies" .
+
+:InfluencedElement a :Role ;
+    :LABEL "influenced elements" .
+
+:RequirementDomain a :Role ;
+    :LABEL "requirement domains" .
+
+:SatisfyingComponent a :Role ;
+    :LABEL "satisfying components" .
+
+:Parent a :Role ;
+    :LABEL "parents" .
+
+:Child a :Role ;
+    :LABEL "children" .
+
+:Comparison a :Role ;
+    :LABEL "comparisons" .
+
+:ActiveComponent a :Role ;
+    :LABEL "active components" .
+
+:RelatedMode a :Role ;
+    :LABEL "related modes" .
+
+:AssignedFunction a :Role ;
+    :LABEL "assigned functions" .
+
+:AssignedToComponent a :Role ;
+    :LABEL "assigned to components" .
+
+:GroupedFunction a :Role ;
+    :LABEL "grouped functions" .
+
+:GroupedToMode a :Role ;
+    :LABEL "grouped to modes" .
+
+:hasInterface a :Neighbour_relationship ;
+    :LABEL "has Interface" ;
+    :RELATIONSHIP "INTERFACE" ;
+    :DIRECTION 'incoming' ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :Interface .
+
+:hasDependency a :Neighbour_relationship ;
+    :LABEL "has Dependency" ;
+    :RELATIONSHIP "DEPENDENCY" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :Dependency .
+
+:hasInfluencedElement a :Neighbour_relationship ;
+    :LABEL "has Influenced Element" ;
+    :RELATIONSHIP "DEPENDENCY" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :InfluencedElement .
+
+:hasRequirementDomain a :Neighbour_relationship ;
+    :LABEL "has Requirement Domain" ;
+    :RELATIONSHIP "SATISFY" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :RequirementDomain .
+
+:hasSatisfyingComponent a :Neighbour_relationship ;
+    :LABEL "has Satisfying Component" ;
+    :RELATIONSHIP "SATISFY" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :SatisfyingComponent .
+
+:hasParent a :Neighbour_relationship ;
+    :LABEL "has Parent" ;
+    :RELATIONSHIP "PARENT" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :Parent .
+
+:hasChild a :Neighbour_relationship ;
+    :LABEL "has Child" ;
+    :RELATIONSHIP "PARENT" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :Child .
+
+:hasComparison a :Neighbour_relationship ;
+    :LABEL "has Comparison" ;
+    :RELATIONSHIP "COMPARISON" ;
+    :DIRECTION 'incoming' ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :Comparison .
+
+:hasActiveComponent a :Neighbour_relationship ;
+    :LABEL "has Active Component" ;
+    :RELATIONSHIP "ACTIVE_COMPONENT" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :ActiveComponent .
+
+:hasRelatedMode a :Neighbour_relationship ;
+    :LABEL "has Related Mode" ;
+    :RELATIONSHIP "ACTIVE_COMPONENT" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :RelatedMode .
+
+:hasAssignedFunction a :Neighbour_relationship ;
+    :LABEL "has Assigned Function" ;
+    :RELATIONSHIP "ASSIGNED_TO" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :AssignedFunction .
+
+:hasAssignedToComponent a :Neighbour_relationship ;
+    :LABEL "has Assigned To Component" ;
+    :RELATIONSHIP "ASSIGNED_TO" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :AssignedToComponent .
+
+:hasGroupedFunction a :Neighbour_relationship ;
+    :LABEL "has Grouped Function" ;
+    :RELATIONSHIP "GROUPED_TO" ;
+    :DIRECTION 'incoming' ;
+    :RANGE :GroupedFunction .
+
+:hasGroupedToMode a :Neighbour_relationship ;
+    :LABEL "has Grouped To Mode" ;
+    :RELATIONSHIP "GROUPED_TO" ;
+    :DIRECTION 'outgoing' ;
+    :RANGE :GroupedToMode .

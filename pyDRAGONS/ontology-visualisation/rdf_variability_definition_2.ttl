@@ -1,0 +1,109 @@
+@prefix : <http://dig.isi.edu/> .
+
+:Classifier a :Type .
+
+:Comparison a :Type .
+
+:Comparison_DATA_INTERFACE a :Comparison_Multiplicity ;
+   :PARENT_COMPARISON :Comparison .
+
+:Comparison_FLUID_INTERFACE a :Comparison_PARENT ;
+   :COMPARISON_LOCATION_IN_DESIGN :Design_Element ;
+   :PARENT_COMPARISON :Comparison .
+
+:Comparison_MECHANICAL_INTERFACE a :Comparison_POWER_INTERFACE ;
+   :COMPARISON_LOCATION_IN_DESIGN :Design_Element ;
+   :PARENT_COMPARISON :Comparison ;
+   :DISCOVERED_BY :Difference .
+
+:Comparison_Multiplicity a :Comparison_Value ;
+   :PARENT_COMPARISON :Comparison .
+
+:Comparison_PARENT a :Comparison_MECHANICAL_INTERFACE ;
+   :COMPARISON_LOCATION_IN_DESIGN :Design_Element ;
+   :PARENT_COMPARISON :Comparison .
+
+:Comparison_POWER_INTERFACE a :Type ;
+   :COMPARISON_LOCATION_IN_DESIGN :Design_Element ;
+   :PARENT_COMPARISON :Comparison ;
+   :DISCOVERED_BY :Difference .
+
+:Comparison_Value a :Comparison_FLUID_INTERFACE ;
+   :PARENT_COMPARISON :Comparison .
+
+:Design_Element a :Type ;
+   :CLASSIFIER :Classifier ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison_DATA_INTERFACE ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison_Multiplicity ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison_Value ;
+   :DATA_INTERFACE :Subsystem ;
+   :DATA_INTERFACE :Unit ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Difference_DATA_INTERFACE ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Difference_FLUID_INTERFACE ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Difference_MECHANICAL_INTERFACE ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Difference_Multiplicity ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Difference_PARENT ;
+   :FLUID_INTERFACE :Unit ;
+   :MECHANICAL_INTERFACE :Unit ;
+   :PARENT :Mode ;
+   :PARENT :Parameter ;
+   :PARENT :Spacecraft ;
+   :PARENT :Subsystem ;
+   :PARENT :Unit ;
+   :POWER_INTERFACE :Unit .
+
+:Difference a :Type ;
+   :DISCOVERED_BY :Comparison ;
+   :DISCOVERED_BY :Comparison_DATA_INTERFACE ;
+   :DISCOVERED_BY :Comparison_FLUID_INTERFACE ;
+   :DISCOVERED_BY :Comparison_Multiplicity ;
+   :DISCOVERED_BY :Comparison_PARENT ;
+   :DISCOVERED_BY :Comparison_Value ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Design_Element ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Parameter ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Spacecraft ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Subsystem ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Unit .
+
+:Difference_DATA_INTERFACE a :Difference_FLUID_INTERFACE ;
+   :DISCOVERED_BY :Comparison .
+
+:Difference_FLUID_INTERFACE a :Difference_MECHANICAL_INTERFACE ;
+   :DISCOVERED_BY :Comparison .
+
+:Difference_MECHANICAL_INTERFACE a :Difference_Multiplicity ;
+   :DISCOVERED_BY :Comparison .
+
+:Difference_Multiplicity a :Difference_PARENT ;
+   :DISCOVERED_BY :Comparison .
+
+:Difference_PARENT a :Difference_POWER_INTERFACE ;
+   :DISCOVERED_BY :Comparison .
+
+:Difference_POWER_INTERFACE a :Difference_Value ;
+   :DISCOVERED_BY :Comparison ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Design_Element .
+
+:Difference_Value a :Difference ;
+   :DISCOVERED_BY :Comparison ;
+   :DIFFERENCE_LOCATION_IN_DESIGN :Design_Element .
+
+:Mode a :Type ;
+   :CLASSIFIER :Classifier .
+
+:Parameter a :Spacecraft ;
+   :CLASSIFIER :Classifier ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison .
+
+:Spacecraft a :Subsystem ;
+   :CLASSIFIER :Classifier ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison .
+
+:Subsystem a :Unit ;
+   :CLASSIFIER :Classifier ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison .
+
+:Unit a :Design_Element ;
+   :CLASSIFIER :Classifier ;
+   :COMPARISON_LOCATION_IN_DESIGN :Comparison .
