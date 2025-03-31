@@ -1,0 +1,7 @@
+<map id="variability_definition_1.Ground_Station_Domain" name="variability_definition_1.Ground_Station_Domain">
+<area shape="rect" id="node1" title=" " alt="" coords="104,312,285,425"/>
+<area shape="rect" id="node4" href="$classvariability__definition__1_1_1_ground___segment___domain.html" title=" " alt="" coords="5,473,197,587"/>
+<area shape="rect" id="node5" href="$classvariability__definition__1_1_1_latency___domain.html" title=" " alt="" coords="221,473,357,587"/>
+<area shape="rect" id="node2" href="$classvariability__definition__1_1_1_requirement.html" title=" " alt="" coords="128,151,261,264"/>
+<area shape="rect" id="node3" title=" " alt="" coords="124,5,265,103"/>
+</map>

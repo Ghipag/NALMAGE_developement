@@ -1,0 +1,6 @@
+<map id="variability_definition_1.Temperature_Estimation_Accuracy_FDomain" name="variability_definition_1.Temperature_Estimation_Accuracy_FDomain">
+<area shape="rect" id="node1" title=" " alt="" coords="113,5,294,135"/>
+<area shape="rect" id="node2" href="$classvariability__definition__1_1_1_position___latitude___f_domain.html" title=" " alt="" coords="104,183,303,296"/>
+<area shape="rect" id="node3" href="$classvariability__definition__1_1_1_observation___local___time___f_domain.html" title=" " alt="" coords="5,344,186,473"/>
+<area shape="rect" id="node4" href="$classvariability__definition__1_1_1_variation__of___local___time__of___observation___f_domain.html" title=" " alt="" coords="209,344,417,473"/>
+</map>

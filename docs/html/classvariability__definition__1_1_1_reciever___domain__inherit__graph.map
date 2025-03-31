@@ -1,0 +1,9 @@
+<map id="variability_definition_1.Reciever_Domain" name="variability_definition_1.Reciever_Domain">
+<area shape="rect" id="node1" title=" " alt="" coords="89,635,228,748"/>
+<area shape="rect" id="node6" href="$classvariability__definition__1_1_1_antenna___domain.html" title=" " alt="" coords="5,804,144,917"/>
+<area shape="rect" id="node7" href="$classvariability__definition__1_1_1_data___transfer___rate___domain.html" title=" " alt="" coords="167,796,321,925"/>
+<area shape="rect" id="node2" href="$classvariability__definition__1_1_1_transmitter___domain.html" title=" " alt="" coords="81,473,236,587"/>
+<area shape="rect" id="node3" href="$classvariability__definition__1_1_1_comms___domain.html" title=" " alt="" coords="91,312,226,425"/>
+<area shape="rect" id="node4" href="$classvariability__definition__1_1_1_requirement.html" title=" " alt="" coords="92,151,225,264"/>
+<area shape="rect" id="node5" title=" " alt="" coords="88,5,229,103"/>
+</map>
