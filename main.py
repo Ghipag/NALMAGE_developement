@@ -313,7 +313,6 @@ def main():
     design_data = pyDRAGONS.database_interaction.data_extraction.read_data(design_name)
     pyDRAGONS.database_interaction.data_extraction.process_design_data(mission_name,design_name,design_data,graph)
 
-    exit()
     design_query = {'query type':'Internal Interfaces Analysis',
                     'requirement':[],
                     'design variable':['Thruster'],
