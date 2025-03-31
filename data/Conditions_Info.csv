@@ -1,0 +1,9 @@
+name,alternative_names,reciprocal,allowed_sub_class
+In_eclipse,NONE,Not_in_eclipse,External;Cyclic;Geometric
+In_view_of_target,NONE,NONE,External;Cyclic;Geometric
+In_view_of_groundstation,NONE,NONE,External;Cyclic;Geometric
+Performing_maneouvre,NONE,NONE,Internal;Cyclic;Irregular;Operational
+Have_experienced_a_fault,NONE,Have_not_experienced_a_fault,InternalIrregular;Operational
+performing_reduced_operations,NONE,NONE,Internal;Irregular;Operational
+Not_yet_commissioned,NONE,NONE,Internal;Irregular
+At_end_of_useful_life,NONE,NONE,Internal;Irregular

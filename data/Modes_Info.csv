@@ -1,0 +1,10 @@
+name,alternative_names,allowed_owner,allowed_sub_class,allowed_conditions,allowed_condition_Types
+Standby,Idle; Station Keeping,Spacecraft,Day;Night,In eclipse;Not in eclipse,External;Cyclic
+Imaging,NONE,Spacecraft,Day;Night,In view of target;In eclipse;Not in eclipse,External;Cyclic
+Comms,Downlink,Spacecraft,Day;Night;TT&C;Science,In view of groundstation;In eclipse;Not in eclipse,External;Cyclic
+Manoeuvre,NONE,Spacecraft,Attitude Control;Orbit Control,Performing maneouvre,Internal;Cyclic;Irregular
+Safe,NONE,Spacecraft,Day;Night,Have experienced a fault;performing reduced operations;In eclipse;Not in eclipse,Internal;External;Irregular
+Nominal,NONE,Spacecraft,NONE,Have not experienced a fault,Internal;Cyclic
+LEOP,Launch,Spacecraft,NONE,Not yet commissioned,Internal;Irregular
+Decommissioning,Deorbit;EOL,Spacecraft,NONE,At end of useful life,Internal;Irregular
+Science_Operation,NONE,Spacecraft,NONE,Have not experienced a fault,Internal;Cyclic

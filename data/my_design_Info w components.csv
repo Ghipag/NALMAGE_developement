@@ -1,0 +1,17 @@
+name,classifier,children,power_interfaces,data_interfaces,mechanical_interfaces,fluid_interfaces,thermal_interfaces,parameter_value,multiplicity,sub_class,related_requirement,hard_dependency,active_components,grouped_to,assigned_to,uid,traceable_to
+SHIRE,Spacecraft,NONE;_Imaging;_Mode;_Pointing;_Three_Axis_stab_status;_End_Of_Life;Power_Subsystem;Propulsion_Subsystem;Thermal_Subsystem;AOCS;AOCS,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designSHIRE,NONE
+_Imaging,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_design_Imaging,MIS_003
+_Mode,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_design_Mode,MIS_013
+_Pointing,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_design_Pointing,MIS_010
+_Three_Axis_stab_status,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_design_Three_Axis_stab_status,MIS_014
+_End_Of_Life,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_design_End_Of_Life,MIS_015
+Power_Subsystem,Power_Subsystem,NONE;Solar_Array;PCDU;Battery;Power_Bus;Solar_Array_Actuator,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designPower_Subsystem,_Mode
+Propulsion_Subsystem,Propulsion_Subsystem,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designPropulsion_Subsystem,_End_Of_Life
+Thermal_Subsystem,Thermal_Subsystem,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designThermal_Subsystem,_Imaging
+AOCS,AOCS,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designAOCS,_Pointing
+AOCS,AOCS,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designAOCS,_Three_Axis_stab_status
+Solar_Array,Solar_Array,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,NONE,_Imaging
+PCDU,PCDU,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,NONE,_Mode
+Battery,Battery,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,NONE,_Pointing
+Power_Bus,Power_Bus,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,NONE,_Three_Axis_stab_status
+Solar_Array_Actuator,Solar_Array_Actuator,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,NONE,_End_Of_Life

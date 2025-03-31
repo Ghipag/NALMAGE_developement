@@ -1,0 +1,9 @@
+name,classifier,children,power_interfaces,data_interfaces,mechanical_interfaces,fluid_interfaces,thermal_interfaces,parameter_value,multiplicity,sub_class,related_requirement,hard_dependency,active_components,grouped_to,assigned_to,uid
+SHIRE,Spacecraft,func-0;func-1;func-2;func-3;func-Idle;func-Nominal_Operations;func-Uncontrolled_Orbit_Decay,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designSHIRE
+func-0,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,Orbital_FDomain;Revisit_FDomain;Design_Element_FDomain;Variation_of_Local_Time_of_Observation_FDomain;Operational_FDomain;Position_Latitude_FDomain;Observation_Local_Time_FDomain;System_Components_FDomain;Temperature_Estimation_Accuracy_FDomain;Function_FDomain,MIS_003;MIS_004;MIS_006;MIS_007,NONE,NONE,NONE,NONE,my_designfunc-0
+func-1,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,System_Components_FDomain;Pointing_Accuracy_FDomain;Angular_Error_FDomain;Design_Element_FDomain;Function_FDomain,MIS_010,NONE,NONE,NONE,NONE,my_designfunc-1
+func-2,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,System_Components_FDomain;Geo_Location_accuracy_FDomain;Design_Element_FDomain;Function_FDomain,MIS_011,NONE,NONE,NONE,NONE,my_designfunc-2
+func-3,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,System_Components_FDomain;Three_Axis_stab_status_FDomain;Design_Element_FDomain;Function_FDomain,MIS_014,NONE,NONE,NONE,NONE,my_designfunc-3
+func-Idle,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designfunc-Idle
+func-Nominal_Operations,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designfunc-Nominal_Operations
+func-Uncontrolled_Orbit_Decay,Function,NONE,NONE,NONE,NONE,NONE,NONE,NONE,1,NONE,NONE,NONE,NONE,NONE,NONE,my_designfunc-Uncontrolled_Orbit_Decay

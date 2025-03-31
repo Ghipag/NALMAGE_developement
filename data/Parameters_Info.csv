@@ -1,0 +1,66 @@
+name,alternative_names,allowed_owner,allowed_sub_class,allowed_type,allowed_categories,units
+Lifetime,NONE,Spacecraft,NONE,Continuous,NONE,Years
+Cost,NONE,Spacecraft,NONE,Continuous,NONE,$
+Altitude,NONE,Spacecraft,NONE,Continuous,NONE,Km
+Perigee_Radius,NONE,Spacecraft,NONE,Continuous,NONE,Km
+Apogee_Radius,NONE,Spacecraft,NONE,Continuous,NONE,Km
+SMA,Semi-Major Axis,Spacecraft,NONE,Continuous,NONE,Km
+Inclination,NONE,Spacecraft,NONE,Continuous,NONE,Deg
+AOP,Argument of Perigee,Spacecraft,NONE,Continuous,NONE,Deg
+Eccentricity,NONE,Spacecraft,NONE,Continuous,NONE,NONE
+LTAN,Local Time of Ascending Node,Spacecraft,NONE,Continuous,NONE,Hrs:mins
+LTDN,Local Time of Descending Node,Spacecraft,NONE,Continuous,NONE,Hrs:mins
+True_Anomaly,NONE,Spacecraft,NONE,Continuous,NONE,Deg
+RAAN,NONE,Spacecraft,NONE,Continuous,NONE,Deg
+Period,NONE,Spacecraft,NONE,Continuous,NONE,Mins
+Revisit,NONE,Spacecraft,NONE,Continuous,NONE,Days
+Mass,NONE,Spacecraft;Subsystem;Unit,Dry;Wet;Propellant,Continuous,NONE,kg
+Power,Power Draw,Spacecraft;Subsystem;Unit,Generation;Draw;Max Draw;Nominal Draw,Continuous,NONE,W
+Data_Generation,NONE,Spacecraft;Subsystem;Unit,NONE,Continuous,NONE,Mbps
+Focal_Length,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,mm
+Single_Pixel_Size,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,Microns
+Ground_Resolution,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,m
+Delta_V,NONE,Propulsion_Subsystem;Tank,Orbital Corrections;Station Keeping;Attitude Control;Total,Continuous,NONE,m/s
+Volume,NONE,Tank,NONE,Continuous,NONE,L
+Thrust,NONE,Thruster,NONE,Continuous,NONE,N
+Momentum,NONE,Reaction_Wheel,NONE,Continuous,NONE,Nms
+Magnetic_Dipole,NONE,Magnetorquer,NONE,Continuous,NONE,A/m^2
+Angular_Error,NONE,Star_Tracker;IMU,NONE,Continuous,NONE,ArcSeconds
+Pointing_Accuracy,NONE,AOCS;Reaction_Wheel;Magnetorquer,NONE,Continuous,NONE,Deg
+Area,NONE,Solar_Array;Radiator;Power_Subsystem,NONE,Continuous,NONE,m^2
+Yaw,NONE,Solar_Array,NONE,Continuous,NONE,Deg
+Voltage,NONE,Power_Bus,NONE,Continuous,NONE,V
+Capacity,NONE,Battery,NONE,Continuous,NONE,NONE
+Frequency,NONE,Transmitter;Transciever;Transponder;Ground_Station,NONE,Continuous,NONE,MHz
+Data_Transfer_Rate,NONE,Transmitter;Reciever;Transciever;Transponder;EDRS_Terminal;Data_Bus,NONE,Continuous,NONE,Mbps
+Diameter,NONE,Antenna,NONE,Continuous,NONE,M
+Gain,NONE,Antenna,NONE,Continuous,NONE,db
+Data_Storage,NONE,Solid_State_Recorder,NONE,Continuous,NONE,Tbit
+Number_of_pixels_Per_Detector_Side,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,NONE
+Depth_of_Discharge,NONE,Battery,NONE,Continuous,NONE,%
+Position_Knowledge,NONE,AOCS,NONE,Continuous,NONE,m
+Pointing_Knowledge,NONE,AOCS;Star_Tracker,NONE,Continuous,NONE,ArcSeconds
+Temeprature_Limit,NONE,Thermal_Subsystem,NONE,Continuous,NONE,Kelvin
+Position_Latitude,NONE,Ground_Station;Payload,NONE,Continuous,NONE,Deg
+Position_Longitude,NONE,Ground_Station,NONE,Continuous,NONE,Deg
+Length,NONE,Spacecraft;Subsystem;Unit,NONE,Continuous,NONE,m
+Field_of_View,FoV,Payload;Payload_Unit,NONE,Continuous,NONE,Deg
+Rotation_Speed,RPM,Reaction_Wheel,NONE,Continuous,NONE,rpm
+Temperature_Estimation_Accuracy,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,K
+Observation_Local_Time,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,Hrs:mins
+Observation_Zentih_Angle,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,Deg
+Variation_of_Local_Time_of_Observation,NONE,Payload;Payload_Unit,NONE,Continuous,NONE,mins
+Geo_Location_accuracy,NONE,Spacecraft;Payload;Payload_Unit,NONE,Continuous,NONE,m
+Availability,NONE,Spacecraft,NONE,Continuous,NONE,%
+Number_of_Launchers,NONE,Spacecraft,NONE,Continuous,NONE,NONE
+Three_Axis_stab_status,NONE,Spacecraft;AOCS,NONE,Continuous,NONE,BOOL
+Along_Track_Distance,NONE,Spacecraft,NONE,Continuous,NONE,Km
+Formation_Distance_Accuracy,NONE,AOCS,NONE,Continuous,NONE,Km
+Separation_Time,NONE,Spacecraft,NONE,Continuous,NONE,s
+Latency,NONE,Spacecraft;Payload,NONE,Continuous,NONE,hrs
+Repeat_Cycle_time,NONE,Spacecraft;Payload,NONE,Continuous,NONE,Days
+Downlink_Duration,NONE,Spacecraft;Payload,NONE,Continuous,NONE,mins
+Off_Nadir_Pointing_Angle,NONE,Spacecraft;Payload,NONE,Continuous,NONE,Deg
+Margin,NONE,OBDH;Communications,NONE,Continuous,NONE,%
+Number_of_concurrent_file_transmissions,NONE,OBDH;Communications,NONE,Continuous,NONE,NONE
+Data_Error_Rate,NONE,OBDH;Communications,NONE,Continuous,NONE,NONE

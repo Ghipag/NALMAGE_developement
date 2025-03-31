@@ -1,0 +1,60 @@
+Req_ID,Requirement,domain,Functional_Non_Functional,,,
+REDACTED,REDACTED,System_Components_Domain;Lifetime_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,System_Components_Domain;Lifetime_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,System_Components_Domain;Lifetime_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,System_Components_Domain;Lifetime_Domain;Power_Subsystem_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Availability_Domain;Operational_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Orbital_Domain;Altitude_Domain;Inclination_Domain;LTDN_Domain;Repeat_Cycle_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Orbital_Domain;Altitude_Domain;Inclination_Domain;LTDN_Domain;Repeat_Cycle_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Orbital_Domain;Altitude_Domain;Inclination_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Comms_Domain;Communications_Domain;Ground_Station_Domain;Latency_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Comms_Domain;Communications_Domain;Ground_Station_Domain;Latency_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain;Payload_Unit_Domain;Imaging_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain;Payload_Unit_Domain;Imaging_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Observation_Zentih_Angle_Domain;Payload_Domain;Payload_Unit_Domain;Imaging_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Orbital_Domain;Altitude_Domain;Inclination_Domain;Eccentricity_Domain;AOP_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Manoeuvre_Domain;AOCS_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain;Payload_Unit_Domain;Imaging_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain;Payload_Unit_Domain;Imaging_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Payload_Domain;Payload_Unit_Domain;Altitude_Domain;Ground_Resolution_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;Onboard_Computer_Domain;Solid_State_Recorder_Domain;Operational_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;Onboard_Computer_Domain;Solid_State_Recorder_Domain;Data_Transfer_Rate_Domain;Data_Storage_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;GNSS_Receiver_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;Autonomy_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Comms_Domain;Communications_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;Comms_Domain;Communications_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,OBDH_Domain;Standby_Domain;Operational_Domain;Initialisation_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Ground_Segment_Domain;Telecommand_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Operational_Domain;Telecommand_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain;File_System_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain;File_System_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain;File_System_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain;File_System_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Software_Domain;File_System_Domain;Data_Compression_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Data_Storage_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Data_Storage_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,OBDH_Domain;Telemetry_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Comms_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Comms_Domain;Real_time_data_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Comms_Domain;Real_time_data_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Data_Transfer_Rate_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain;Antenna_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain;Antenna_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain;Antenna_Domain;File_System_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Ground_Station_Domain;Transmitter_Domain;Doppler_Tracking_Domain,Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Data_Transfer_Rate_Domain;Payload_Domain;Communications_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Data_Transfer_Rate_Domain;Communications_Domain;Telemetry_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Data_Transfer_Rate_Domain;Communications_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain,Non_Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Data_Error_Rate_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Data_Error_Rate_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Data_Error_Rate_Domain,Non_Functional_Requirement,,,THIS ONE
+REDACTED,REDACTED,Communications_Domain;Operational_Domain,Functional_Requirement,,,
+REDACTED,REDACTED,Communications_Domain;Transmitter_Domain;Reciever_Domain;Simultaneous_Operation_Domain,Functional_Requirement,,,THIS ONE
