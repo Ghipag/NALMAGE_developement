@@ -1,4 +1,4 @@
-# DRAGONS-development
+# NALMAGE-development
 This repository contains all the code and related data for performing generative design of system architectures using LLM's and the DRAGONS architecting method, also presented [in this repo](https://github.com/Ghipag/DRAGONS-development/tree/main). Documentation may be found (in HTML format, should be viewed in a browser) under \docs. The architecture data used to run experiments is stored under /data.
 
 ## Setup
